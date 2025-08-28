@@ -284,3 +284,146 @@ span i {
 .social h4:hover {
     color: deeppink;
 }
+
+/* Media queries para tablets */
+@media (max-width: 900px) {
+    .title-h1 {
+        font-size: 2.5em;
+        line-height: 1.2em;
+    }
+    .container-header {
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 10px;
+    }
+    .logo {
+        margin: 10px 0 10px 0;
+    }
+    .container-h1 {
+        width: 100%;
+        text-align: left;
+        margin: 10px 0;
+    }
+    .nav {
+        width: 100%;
+        margin: 0;
+        justify-content: flex-start;
+    }
+    .nav ul {
+        gap: 10px;
+        margin: 0;
+    }
+    .container-cards {
+        flex-direction: column;
+        align-items: center;
+    }
+    .card-servicios {
+        width: 90%;
+        min-width: 180px;
+    }
+    .carrusel img {
+        height: 90px;
+    }
+}
+
+/* Media queries para móviles */
+@media (max-width: 600px) {
+    .foto-portada {
+        min-height: 350px;
+        background-position: center;
+    }
+    .title-h1 {
+        font-size: 1.5em;
+        line-height: 1.2em;
+    }
+    .container-header {
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 5px;
+    }
+    .logo {
+        margin: 5px 0 5px 0;
+    }
+    .container-h1 {
+        width: 100%;
+        text-align: left;
+        margin: 5px 0;
+    }
+    .nav {
+        width: 100%;
+        margin: 0;
+        justify-content: flex-start;
+    }
+    .nav ul {
+        gap: 5px;
+        margin: 0;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .container-texto-servicios {
+        width: 100%;
+        margin: 15px auto;
+    }
+    .title-h2-servicios {
+        font-size: 1.5em;
+    }
+    .title-h3-servicios {
+        font-size: 1em;
+        margin-top: 20px;
+    }
+    .text-servicios {
+        font-size: 1em;
+        margin-top: 20px;
+    }
+    .container-cards {
+        flex-direction: column;
+        gap: 10px;
+        margin: 20px auto;
+    }
+    .card-servicios {
+        width: 98%;
+        min-width: 120px;
+        padding: 10px;
+    }
+    .button-servicios {
+        width: 98%;
+        font-size: 1em;
+        padding: 10px;
+    }
+    .carrusel {
+        width: 100%;
+        border-width: 2px;
+    }
+    .carrusel img {
+        height: 60px;
+    }
+    .footer {
+        flex-direction: column;
+        align-items: center;
+        padding: 10px 0;
+    }
+    .logo-info-footer,
+    .contacto,
+    .enlaces {
+        width: 100%;
+        margin: 5px 0;
+        text-align: center;
+    }
+    .logo-footer img {
+        width: 4em;
+        margin-left: 0;
+    }
+    .logo-footer h3 {
+        font-size: 1.5em;
+    }
+    .info-footer span,
+    .info-contacto span {
+        font-size: 1em;
+    }
+    .social ul {
+        gap: 10px;
+    }
+    .social i {
+        font-size: 1.2em;
+    }
+}
