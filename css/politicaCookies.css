@@ -102,6 +102,13 @@ main h2 {
     color: deeppink;
 }
 
+main h3 {
+    font-size: 1.5rem;
+    margin: 20px 0;
+    padding-left: 1rem;
+    
+}
+
 main ul {
     margin: 20px 0;
     padding: 0 3rem;
